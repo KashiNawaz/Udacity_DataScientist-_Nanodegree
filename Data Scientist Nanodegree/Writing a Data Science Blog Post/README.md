@@ -1,1 +1,2 @@
-"Write a Blog Post Project"
+"Write Data Science a Blog Post"
+
