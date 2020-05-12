@@ -1,5 +1,4 @@
-Key Steps for Project
-Feel free to be creative with your solutions, but do follow the CRISP-DM process in finding your solutions.
+Key Steps for Project:
 
 1) Pick a dataset.
 
