@@ -24,14 +24,13 @@ I followed the CRISP-DM process to analyze the Seattle Airbnb homes data and ans
 These above libraries were required to be installed.
 
 ### Results
-Here are the main findings:
-1-prices increase in summer season and decrease in winter season.
-2-Magnolia, Queen Anne and Downtown are more expensive.
-3-Delridge, Northgate, Rainier Valley, and Lake City are cheaper.
-4-The number of bedrooms and bathrooms, the weekly cost of the listing, and the cost of cleaning service are the most important factor in determine listings price.
-5-December, March, and October are the busiest months of the year, while January, February and July are the least.
-6-Capitol Hill, Downtown, and Central Area are more crowded.
-Interbay, Seward Park, Magnolia, and Lake City are less crowded.
+    1-prices increase in summer season and decrease in winter season.
+    2-Magnolia, Queen Anne and Downtown are more expensive.
+    3-Delridge, Northgate, Rainier Valley, and Lake City are cheaper.
+    4-The number of bedrooms and bathrooms, the weekly cost of the listing, and the cost of cleaning service are the most important factor in determine listings price.
+    5-December, March, and October are the busiest months of the year, while January, February and July are the least.
+    6-Capitol Hill, Downtown, and Central Area are more crowded.
+    Interbay, Seward Park, Magnolia, and Lake City are less crowded.
 ### Acknowlwdgement
 Here is the Medium blog post link:
 | Medium | [https://medium.com/@kashoo003/a-data-analysis-on-accommodation-in-seattle-46216096d78a?sk=f724fb5ed27c961b0252aabee75672d3] |
