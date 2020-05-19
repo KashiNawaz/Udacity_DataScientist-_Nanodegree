@@ -20,3 +20,6 @@ This project is designed to apply data engineering skills in building an end to 
 3. Run the following command to start running our web app to get predictions and see visualizations : python run.py
 4. Visit (http://0.0.0.0:3001/) to see the web app
 ### Screenshots
+![image](https://github.com/KashiNawaz/Udacity_DataScientist_Nanodegree/blob/master/Data%20Scientist%20Nanodegree/Disaster%20Response%20Pipeline/images/img1.PNG)
+
+![image](https://github.com/KashiNawaz/Udacity_DataScientist_Nanodegree/blob/master/Data%20Scientist%20Nanodegree/Disaster%20Response%20Pipeline/images/img2.PNG)
