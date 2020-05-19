@@ -5,7 +5,7 @@ nltk.download('wordnet')
 
 import pickle
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, inspect
 from sklearn.externals import joblib
 import re
 
@@ -22,7 +22,10 @@ from sklearn.metrics import classification_report
 
 def load_data(database_filepath):
     engine = create_engine('sqlite:///' + database_filepath)
-    df = pd.read_sql('SELECT * FROM disaster_messages_clean',engine)
+    inspector = inspect(engine)
+    table=inspector.get_table_names()
+    df = pd.read_sql_table(table[0], engine)
+    print(df.columns)
     X = df.message
     y = df.iloc[:,4:]
     categories = y.columns.tolist()
