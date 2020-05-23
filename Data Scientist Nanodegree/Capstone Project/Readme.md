@@ -1,25 +1,26 @@
-# Capstone Project: Dog Breed Classifier
+# Capstone Project: Sparkify Project
 
 ### Project Motivation
-This project uses Convolutional Neural Networks (CNNs) and transfer learning in order to build a pipeline to process real-world images. CNNs are commonly used to analyse image data.I used Tranfer Learning, Transfer learning is a technique that allows to reuse a model across different tasks. The objective is that given an image of a human or dog, the algorithm will identify an estimate of the dog's breed. If supplied an image of a human, the code will identify the resembling dog breed. If the algorithm can't identify the image as a human or dog, it will say so.
+This project is a part of the Udacity's Data Scientist Nanodegree program analyzing the behaviour of users for an app called Sparkify and predict the customer churn. Sparkify dataset contains user behaviour log for the past few months. It contains some basic information about the users as well as information about a particular action they have taken since their registration. A user can have multiple actions which leads to multiple entries for a user, we can identify when a user churned through the action of account cancellation.
 ### Table of Contents
     Libraries
     File Descriptions
-    Content
-    Findings
+    Project Content
+    Blog 
 ### Libraries
-    Keras
-    sklearn
+    Pandas
     Matplotlib
-    Numpy
+    Seaborn
+    Spark
+    PySpark
 ### File Descriptions
-    dog_app.ipynb: Jupyter notebook containing the algorithm and process used to create it.
-    report.pdf: A copy of dog_app.ipynb in pdf format.
- ### Contents
-    Step 0: Import Datasets
-    Step 1: Detect Humans
-    Step 2: Detect Dog
-    Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
-    Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
-    Step 5: Write Your Algorithm
-    Step 6: Test Your Algorithm
+    Sparkify.ipynb: Jupyter notebook containing the procesess like pre-processing, feature engineering and modelling.
+    readme.md: It contiains the basic info about the project.
+### Project Contents
+    Step 1: Load and Clean Dataset
+    Step 2: Exploratory Data Analysis
+    Step 3: Feature Engineering
+    Step 4: Modeling
+### Blog
+I have written a BlogPost about this project which contains all the info about project content and approach used for these contents.
+Then BlogPost can be checked here using this [BlogPost link](https://medium.com/@kashoo003/customer-churn-prediction-using-pyspark-1348e4172d3b)
